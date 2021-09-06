@@ -9,3 +9,4 @@ https://www.codewithc.com/
 
 2.Add contact,delete contact,modify contact,search for a contact including its address and email-id
 <h2> Defining Our System </h2>
+Here,in our project,we can add a contact with the details of name,phone nummber,address and email id.We can add,delete and edit the contact and liss all the contacts,and search for a contact which makes the user little easy with its working
