@@ -1,80 +1,98 @@
+# Cash Flow Manager
 # Requirements
-
 ## Introduction
+ -Cashflow Manager is an application the enables users have a track of their day to day cash inflow and outflow. This application will help to get a clear idea of their income and expenses. The application makes users aware of unnecessary expense and helps to understand money management.
 
-1. This is a demo Database Management System
-2. Secured using login id and password
-3. Allows operations such as
-   - Add data
-   - Delete data
-   - Modify
-   - Search
-   - Display All
-4. For demostration the data is stored in 'mydb.dat'
-5. The default `login id - 256000` and `Password - 12345`
+## Research
 
+-- Cashflow application is essential part of this generation as money needs to be managed efficiently therefore application is designed to keep a track of Income-Expense of the users.
+### Benefits
+--There are many application available in market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user. 
+### Overview
+--The allows users to include multi-income source such as income from rental property or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
+
+--Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly.
 ## Cost and Features
+![Description](Link to Pic)
+### Existing System
+--Existing system do not use the easy and userfriendly concept that are used now a days. In previous systems, users had to manage and maintain the Excel sheets,
+CSV etc files for the user expenses be it daily or monthly. 
 
-| S.No. | Features | Cost (Rs.) |
-| ---   | ---      |  ---       |
-| 1 | Secured Login | 0 |
-| 2 | Add Entry | 0 |
-| 3 | Search | 0 |
-| 4 | Modify | 0 |
-| 5 | Delete | 0 |
-| 6 | Display All | 0 |
+--In existing, there is no as such complete solution to keep a track of its
+daily expenditure easily 
 
-## Defining our System
+### Features
+--CashFlow Application allows
 
-This is demo Database Management System. On execution the system requires from the use the login credential comprising of a unique Id and Password. On providing the correct Id and Password the operations to the database are then displayed and allowed by the program else it quits in receiving wrong information.
+Name of the user
 
-The menu displays options to add, delete, modify, search and display.
+Income to be added
 
-1. **Add -** Allows addition of new entry into the database with a unique id.
-2. **Delete -** Allows deletion of a particular entry by a given id.
-3. **Modify -** Allows modification of a particular field of the entry by id.
-4. **Search -** For searching if an entry is present or not.
-5. **Display -** To display all the entries present in the database.
+Grocery Expense
 
-## SWOT Analysis
+Other Expense
 
-![Drawing](https://user-images.githubusercontent.com/79442246/115001828-a8097180-9ec1-11eb-8723-1714e306fe8c.jpg)
+Will ask for option to confirm if you have Other sources of income 
 
+if yes then u will have to add the income generates
 
-## 4 W's and 1 H
+With the data given it will show the monthly saving done by the user after balancing the cashflow.
 
-### WHO -
-   This will cater to all those who are beginners to database management and file handling
-### WHAT -
-   It's free and can be easily used by people of all ages
-### WHEN -
-   Database is a very imporatant tool in today's era and hence this will be welcomed at all times when someone wants to learn it.
-### WHERE -
-   Fields where records are being digitised and for teaching the beginners
-### HOW -
-   It will be used by everyone since simple to use.
+This will be really helpful for budget planning for users for upcoming months and any event.
 
+## Defining Our System
+   CASHFLOW Management Application have few inbuilt features like:
 
-# Detail Requirements
+Create a new user record of income
+Read a User record
+create the income sources for user
+view the users cashflow
+view users saving
 
-## High Level Requirements
+## SWOT ANALYSIS
 
-|Id|Description|Category|Status|
-|---|---|---|---|
-|HLR1|Login should work|Technical|Implemented|
-|HLR2|Menu should display|Technical|Implemented|
-|HLR3|Decision making of the Program|Scenerio|Implemented|
-|HLR4|File should edit according to the commands|Technical|Implemented|
+![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/1_Requirements/swot.png)
 
-## Low Level Requirements
+# 4W&#39;s and 1&#39;H
 
-|Id|Description|Category|HLRID|Status|
-|---|---|---|---|---|
-|LLR1|Menu should display when Credentials Match|Technical|1, 2|Implemented|
-|LLR2|Program should exit when credentials don't match|Technical|1, 3|Implemented|
-|LLR3|Action executed according to the input given|Technical|2, 3, 4|Implemented|
-|LLR4|Appropriate error messages at failure and success of operations|Technical|1, 2, 3, 4|Implemented|
+## Who:
+
+ This is everone who is ready to manage his cashflow and make himself aware of the money management
 
 
+## What:
 
+Cashflow application will give the exact saving done by the user after calculated all the incomes and expenses done by the user
 
+## When:
+
+When you understand the importance of money management and start to be accountable for your expenses.
+
+## Where:
+
+This is used by the user in day to day life where they can track their expenses and incomes generated daily or monthly
+
+## How:
+
+This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life.
+
+# Detail requirements
+## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to add his income | Techincal | IMPLEMENTED | 
+| HR02 | User shall be able to add his expenses | Techincal |  IMPLEMENTED  |
+| HR03 | User shall be able to view his total saving | Techincal |  IMPLEMENTED  |
+| HR04 | User shall be able to add varied income from other sources | Techincal |  IMPLEMENTED  |
+| HR05 | User shall be able to add new users by his name | Techincal |  IMPLEMENTED  |
+| HR06 | User shall be able to view his total expenses| Techincal |  IMPLEMENTED  |
+
+##  Low level Requirements:
+ 
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | (1). New record shall be added by providing all the asked information                                                                                                    | HR01 |  IMPLEMENTED  |
+| LR02 | user go with the option of display should be able to view the entries by the users | HR02 |  IMPLEMENTED |
+| LR03 | Limit the users for adding income and expenses in inappropriate manner | HR02 | FUTURE |
+| LR04 | User Id to searches for expenses | HR02 |  FUTURE  |
+| LR05 | User without adding details will not display his details | HR03 |  IMPLEMENTED  |
