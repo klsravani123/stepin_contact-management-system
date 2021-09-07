@@ -1,4 +1,4 @@
-# 3_Implementation
+# Implementation
 
 ## Folder Structure
 Folder        | description
